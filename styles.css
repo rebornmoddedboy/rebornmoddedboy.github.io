@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Main Content */
+.content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Game Info */
+.game-info h2 {
+    color: #ffcc00;
+}
+
+.play-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #000;
+    background-color: #ffcc00;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.play-button:hover {
+    background-color: #e6b800;
+}
+
+/* Image Section */
+.game-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* About the Creator */
+.about-creator {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+.about-creator h2 {
+    color: #ffcc00;
+}
+
+.about-creator p {
+    font-size: 16px;
+    line-height: 1.6;
+}
